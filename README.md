@@ -3,6 +3,7 @@
 ## About
 
 BitSmart is an application that will predict the best buy and sell times for Bitcoin within 7 days of a selected date.
+
 Live: [https://bitsmart-frontend-tivvttz32a-uc.a.run.app](https://bitsmart-frontend-tivvttz32a-uc.a.run.app)
 
 ## Development
