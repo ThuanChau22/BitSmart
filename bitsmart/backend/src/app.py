@@ -2,12 +2,12 @@ from flask import Flask, request
 from flask_cors import CORS
 from sys import stderr
 
-from src.config import CLIENT_DOMAIN
+from src.config import CLIENT_DOMAINS
 from src.model import PredictionModel
 from src import utils
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": CLIENT_DOMAIN}})
+CORS(app, resources={r"/api/*": {"origins": CLIENT_DOMAINS}})
 
 
 # Handle price prediction
